@@ -10,13 +10,11 @@ Across these seven projects, I progressed from classical tabular machine learnin
 
 ### Skills you developed (e.g., data preprocessing, model tuning, visualization)
 
-**Data Preprocessing & Feature Engineering**: Built reproducible, leak-free pipelines using Scikit-Learn(Pipeline, ColumnTransformer, SimpleImputer, StandardScaler, OneHotEncoder) alongside custom transformers (FunctionTransformer) to engineer domain-specific tabular features. Normalized image pixel intensities applied PCA for variance-preserving compression, and built NLP text-cleaning pipelines using nltk, CountVectorizer, Keras Tokenizer, and pad_sequences.
+**Data Preprocessing & Feature Engineering**: I learned how to build clean, leak-free preprocessing pipelines using Scikit-Learn (Pipeline, ColumnTransformer, SimpleImputer, OneHotEncoder, and StandardScaler) to handle missing values, encode categorical features, and standardize numerical scales. For unstructured data, I normalized image pixel arrays for neural networks and built custom text-cleaning pipelines using Python, nltk, CountVectorizer, and Keras Tokenizer with sequence padding to prepare raw SMS text for NLP modeling.
 
-**Model Training & Validation**: Trained and benchmarked a wide range of models from linear baselines (LinearRegression, SGDClassifier, LinearSVC) and kernelized SVMs (SVC) to tree-based ensembles (DecisionTreeRegressor, RandomForestClassifier, custom 1,000-tree bagging ensembles) and deep neural networks (Flatten, Dense, Embedding, and GlobalAveragePooling1D layers in Keras). Validated generalization rigorously using k-fold and stratified cross-validation (cross_val_score, cross_val_predict).
+**Model Tuning & Evaluation**: I progressed from training baseline models (LinearRegression, SGDClassifier, LinearSVC) to optimizing complex ensembles (RandomForestClassifier) and neural networks in TensorFlow/Keras. I systematically tuned hyperparameters using GridSearchCV and RandomizedSearchCV, implemented custom learning-rate sweeps and EarlyStopping callbacks, and calibrated classification decision thresholds to balance precision, recall, F1-scores, and ROC-AUC on imbalanced datasets.
 
-**Model & Hyperparameter Tuning**: Replaced guesswork with systematic optimization using GridSearchCV and RandomizedSearchCV across continuous distributions, calibrated classification decision thresholds to balance precision and recall targets, and implemented custom Keras callbacks (ExponentialLearningRate, EarlyStopping, ModelCheckpoint) to identify optimal learning rates and prevent overfitting.
-
-**Visualization & Diagnostic Prototyping**: Used matplotlib, plot_tree, visualkeras, graphviz, and TensorBoard to inspect geographic price clusters, decision boundaries, precision-recall/ROC curves, t-SNE digit manifolds, network architectures, and live training loss curves, as well as ipywidgets to build an interactive spam detection inference interface.
+**Data & Diagnostic Visualization**: I used matplotlib and TensorBoard not just to explore raw datasets such as plotting geographic housing distributions, digit grids, and high-dimensional t-SNE clusters—but also to diagnose model behavior. I created Precision-Recall and ROC curves, decision-boundary contours, confusion matrices, and real-time training/validation loss curves to catch overfitting and visually explain model performance.
 
 ### How these projects prepare you for real-world ML tasks
 
@@ -24,7 +22,7 @@ In production environments, machine learning rarely succeeds on algorithm select
 
 ### AI Statement (Write a paragraph on how you used Generative AI for these projects)
 
-Throughout these seven projects, I used Gemini as a collaborative learning and productivity assistant to support my workflow. Specifically, I utilized Gemini to clarify complex machine learning and evaluation concepts such as precision-recall trade-offs, confusion matrices, kernel hyperparameters, and neural network callbacks as well as to troubleshoot syntax, library compatibility issues, and boilerplate code for data visualizations and model evaluations. Gemini also assisted me in organizing and summarizing my technical notes across modules into clear documentation. All data preprocessing pipelines, model training experiments, hyperparameter tuning choices, and final analytical interpretations were executed, verified, and written independently by me to ensure a complete understanding of the material.
+I used Generative AI as a collaborative learning and productivity aid across my seven machine learning and deep learning projects covering machine learning review, classification, support vector machines, decision trees, dimensionality reduction, artificial neural networks, and natural language processing. Specifically, I used it to clarify theoretical concepts like precision-recall trade-offs, kernel trick hyperparameters, and dimensionality reduction, debug Python code across Scikit-Learn, TensorFlow/Keras, and NLTK, troubleshoot library compatibility issues such as patching visualkeras for Keras 3, and refine the structure and clarity of my written reflections and explanations.
 
 ## Projects completed in this course:<br>
 
