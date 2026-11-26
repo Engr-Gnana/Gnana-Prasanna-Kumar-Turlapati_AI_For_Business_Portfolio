@@ -10,7 +10,7 @@ Across these seven projects, I progressed from classical tabular machine learnin
 
 ### Skills you developed (e.g., data preprocessing, model tuning, visualization)
 
-**Data Preprocessing & Feature Engineering**: Built reproducible, leak-free pipelines using Scikit-Learn(Pipeline,ColumnTransformer,SimpleImputer,StandardScaler, OneHotEncoder) alongside custom transformers (FunctionTransformer) to engineer domain-specific tabular features. Normalized image pixel intensities applied PCA for variance-preserving compression, and built NLP text-cleaning pipelines using nltk, CountVectorizer, Keras Tokenizer, and pad_sequences.
+**Data Preprocessing & Feature Engineering**: Built reproducible, leak-free pipelines using Scikit-Learn(Pipeline, ColumnTransformer, SimpleImputer, StandardScaler, OneHotEncoder) alongside custom transformers (FunctionTransformer) to engineer domain-specific tabular features. Normalized image pixel intensities applied PCA for variance-preserving compression, and built NLP text-cleaning pipelines using nltk, CountVectorizer, Keras Tokenizer, and pad_sequences.
 
 **Model Training & Validation**: Trained and benchmarked a wide range of models from linear baselines (LinearRegression, SGDClassifier, LinearSVC) and kernelized SVMs (SVC) to tree-based ensembles (DecisionTreeRegressor, RandomForestClassifier, custom 1,000-tree bagging ensembles) and deep neural networks (Flatten, Dense, Embedding, and GlobalAveragePooling1D layers in Keras). Validated generalization rigorously using k-fold and stratified cross-validation (cross_val_score, cross_val_predict).
 
