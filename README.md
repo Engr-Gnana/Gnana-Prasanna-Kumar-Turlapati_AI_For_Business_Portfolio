@@ -4,7 +4,7 @@
 
 # Applied AI Solutions for Business and Technology
 
-# Gnana Prasanna Kumar Turlapati**<br>
+# Gnana Prasanna Kumar Turlapati<br>
 
 ## Reflection<br>
 
