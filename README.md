@@ -1,10 +1,6 @@
-# Gnana-Prasanna-Kumar-Turlapati_AI_For_Business_Portfolio
-
-# Applied AI for Business Learning Portfolio - Hands-On Projects
-
 # Applied AI Solutions for Business and Technology
 
-# Gnana Prasanna Kumar Turlapati<br>
+**Gnana Prasanna Kumar Turlapati**<br>
 
 ## Reflection<br>
 
